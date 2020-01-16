@@ -1,13 +1,5 @@
 <?php
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
-
-
-foreach ( glob(plugin_dir_path(__FILE__) . 'classes/*.php') as $file) {
-    if (file_exists($file)) {
-        include_once($file);
-    } 
-}
-
 /*
 Plugin Name: BLACKOUT FETCH POSTS PLUGIN
 Description: Used to dynamically fetch and load posts. Pagination included.
